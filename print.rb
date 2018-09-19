@@ -1,3 +1,3 @@
-puts "Hello world."
-puts "What is your name?"
-choice = $stdin.gets.chomp
+100. times do |n|
+puts n + 1
+end
