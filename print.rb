@@ -1,9 +1,12 @@
-100.times do |n|
-	if n == 2
-		puts "minded"
-	elsif n == 4
-		puts "minds"
+101.times do |n|
+	if n == 0
+	elsif n % 15 == 0
+		puts "You win"
+	elsif n % 5 == 0
+		puts "five"
+	elsif n % 3 == 0
+		puts "three"
 	else
-		puts n + 1
+		puts n
 	end
 end
