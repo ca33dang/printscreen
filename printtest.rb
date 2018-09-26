@@ -69,4 +69,10 @@ end
 def test_22
 	assert_equal("mined minds", fizz_buzz(75))
 end
+def test_23
+	assert_equal(71, fizz_buzz(71))
+end
+def test_24
+	assert_equal(72, fizz_buzz(72))
+end
 end
