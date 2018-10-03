@@ -12,7 +12,12 @@ end
 
 number = 1
 
+a = ('a'..'z').to_a
+print "here is my array#{a}"
 while number <= 100
 	p fizz_buzz(number)
 	number += 1
-	end
+
+	
+	
+end
