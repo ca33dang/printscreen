@@ -78,4 +78,8 @@ end
 def test_25
 	assert_equal("minds", fizz_buzz(69))
 end
+def test_26
+	assert_equal("code is my life", secret_c(15))
 end
+end
+
