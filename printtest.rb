@@ -84,5 +84,8 @@ end
 def test_27
 	assert_equal("code", secret_c(5))
 end
+def test_28
+	assert_equal("is my life", secret_c(3))
+end
 end
 
