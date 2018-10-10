@@ -30,6 +30,6 @@ class Test_fizzbuzz < Minitest::Test
 		assert_equal(["minds"], fizzbuzz(99, n))
 	end
 	def test_10
-		assert_equal([], fizzbuzz(65, n))
+		assert_equal(["mined"], fizzbuzz(65, n))
 	end
 end
