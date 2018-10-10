@@ -17,4 +17,16 @@ class Test_fizzbuzz < Minitest::Test
 	def test_5
 		assert_equal(["minds"], fizzbuzz(3, n))
 	end
+	def test_6_more_number
+		assert_equal(["mined minds"], fizzbuzz(30, n))
+	end
+	def test_7_many_more
+		assert_equal(["mined"], fizzbuzz(50, n))
+	end
+	def test_8
+		assert_equal(["minds"], fizzbuzz(12, n))
+	end
+	def test_9
+		assert_equal(["minds"], fizzbuzz(99, n))
+	end
 end
